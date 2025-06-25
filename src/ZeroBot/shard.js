@@ -1,7 +1,8 @@
+require('dotenv').config()
+
 const { ShardingManager } = require("discord.js");
 const token = process.env.token || require("../../config.json").token;
 
-require('dotenv').config()
 
 function runShard() {
   const manager = new ShardingManager("./src/ZeroBot/main.js", {
@@ -17,12 +18,4 @@ function runShard() {
   manager.spawn();
 }
 
-function runBot() {
-  if (token == undefined) {
-    console.error("ZeroBot: Token undefined");
-    process.exit(1);
-  }
-  runShard();
-}
-
-runBot();
+runShard();
