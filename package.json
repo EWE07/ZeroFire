@@ -22,7 +22,7 @@
     "discord.js": "14.14.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "express-rate-limit": "^7.1.5",
+    "express-rate-limit": "^7.5.1",
     "npkill": "^0.11.3"
   },
   "devDependencies": {
