@@ -1,0 +1,31 @@
+{
+  "name": "Zero",
+  "version": "0.2.2",
+  "description": "",
+  "main": "src/ZeroBot/shard.js",
+  "scripts": {
+    "start": "node src/ZeroBot/shard.js",
+    "server": "node src/ZeroServer/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EWE07/Zero.git"
+  },
+  "keywords": [],
+  "author": "EWE07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EWE07/Zero/issues"
+  },
+  "homepage": "https://github.com/EWE07/Zero#readme",
+  "dependencies": {
+    "discord.js": "14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "npkill": "^0.11.3"
+  },
+  "devDependencies": {
+    "undici": ">=6.10.1"
+  }
+}
