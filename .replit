@@ -1,2 +1,13 @@
 language = "nodejs"
-run = "npm i; npm start"
+run = "npm run start"
+modules = ["nodejs-20"]
+
+[deployment]
+run = ["sh", "-c", "npm run start"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
