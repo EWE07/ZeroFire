@@ -1,4 +1,4 @@
-const ZeroEmbed = require("../../structure/Message/embed.js");
+const ZeroEmbed = require("../../structure/message/embed.js");
 
 module.exports = {
   name: "ping",

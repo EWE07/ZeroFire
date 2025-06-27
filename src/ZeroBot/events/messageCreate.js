@@ -17,7 +17,7 @@ module.exports = {
     let command = client.commands.get(cmd)  || client.commands.get(client.aliases.get(cmd));
 
     if (!command) return
-    
+
     utils.verification(client, command, message, args);
   },
 };
