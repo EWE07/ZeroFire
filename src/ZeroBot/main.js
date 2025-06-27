@@ -13,5 +13,3 @@ client.pendingInvites = new Map();
 client.login();
 client.LoadCommands();
 client.LoadEvents();
-
-
