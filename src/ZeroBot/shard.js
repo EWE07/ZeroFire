@@ -3,7 +3,6 @@ require('dotenv').config()
 const { ShardingManager } = require("discord.js");
 const token = process.env.token || require("../../config.json").token;
 
-
 function runShard() {
   const manager = new ShardingManager("./src/ZeroBot/main.js", {
     token: token,
