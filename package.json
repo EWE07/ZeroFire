@@ -1,31 +1,27 @@
 {
-  "name": "Zero",
-  "version": "0.2.2",
-  "description": "",
-  "main": "src/ZeroBot/shard.js",
+  "name": "zerofire",
+  "version": "1.0.0",
+  "description": "[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EWE07/Zero)",
+  "homepage": "https://github.com/EWE07/ZeroFire#readme",
+  "bugs": {
+    "url": "https://github.com/EWE07/ZeroFire/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EWE07/ZeroFire.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "start": "node src/ZeroBot/shard.js",
     "server": "node src/ZeroServer/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EWE07/Zero.git"
-  },
-  "keywords": [],
-  "author": "EWE07",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EWE07/Zero/issues"
-  },
-  "homepage": "https://github.com/EWE07/Zero#readme",
   "dependencies": {
-    "discord.js": "14.20.0",
+    "discord.js": "^14.20.0",
     "dotenv": "^16.5.0",
-    "express": "^4.19.2",
-    "express-rate-limit": "^7.1.5",
-    "npkill": "^0.11.3"
-  },
-  "devDependencies": {
-    "undici": ">=6.10.1"
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1"
   }
 }
